@@ -57,6 +57,7 @@ Config encryption rules:
 - the overlay `api_key` is browser-owned user config and should be stored encrypted at rest with `space.utils.userCrypto` whenever that session is unlocked
 - encrypted overlay API keys are stored as `userCrypto:`-prefixed strings in `~/conf/onscreen-agent.yaml`
 - when the runtime cannot currently decrypt an existing encrypted `api_key`, load should surface the field as blank plus locked metadata instead of crashing, and save should preserve the stored ciphertext until the user explicitly replaces or clears it from an unlocked session
+- config persistence failures must propagate back to the settings dialog after being logged so the UI does not close with a false saved status
 - in `SINGLE_USER_APP=true`, legacy `userCrypto:` API-key payloads from older non-single-user builds must also load as blank locked metadata instead of being treated as plaintext, and save should keep that stored ciphertext until the user explicitly replaces or clears it
 
 Current browser UI state fields include:

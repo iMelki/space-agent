@@ -54,6 +54,7 @@ Important behavior:
 
 - the browser cookie is a bearer token
 - in multi-user runtime the cookie value also carries the username hint needed to load only that user's auth files; older token-only cookies are cleared because resolving them would require scanning all users
+- cookie validation force-refreshes only the hinted user's auth files before checking the replicated session index, so fresh login and revocation writes in `meta/logins.json` are visible without loading the full user file-index shard
 - the backend stores only a verifier plus signed metadata in `meta/logins.json`
 - each stored session record also carries a backend-generated `sessionId`, which the browser uses to bind its session-scoped `userCrypto` cache to the active login
 - unsigned or expired session records are rejected

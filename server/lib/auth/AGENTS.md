@@ -45,6 +45,7 @@ Current session rules:
 - the session cookie name is `space_session`
 - the cookie is `HttpOnly`, `SameSite=Strict`, scoped to `/`, and carries a 30-day max age
 - in multi-user runtime the cookie value carries a username hint plus the bearer token so request auth can load only that user's auth files; token-only legacy cookie values are cleared because resolving them would require scanning all L2 users
+- cookie validation force-refreshes only the hinted user's auth files before checking the replicated session index, so fresh login or revocation writes in `meta/logins.json` are visible without a full `L2/<username>` file-index load
 - login uses the shared challenge and proof flow from `service.js`
 - `login_challenge` returns the password-proof inputs plus `userCrypto` state; legacy users with no `meta/user_crypto.json` record receive a one-time provisioning share inside that challenge
 - accounts that still have a wrapped user key record but no recoverable server share are treated as `invalidated`, not `missing`, so the browser does not silently reprovision over old ciphertext

@@ -62,6 +62,7 @@ These endpoints are thin wrappers over shared helpers in `server/lib/customware/
 ## Auth And User Storage
 
 - The server issues the `space_session` cookie and validates it by hashing it with a backend-held secret.
+- Cookie validation uses the username hint to force-refresh only that user's auth files before checking the derived session index; frontend code should not compensate by scanning user files.
 - When the current login may auto-restore `userCrypto` on the same browser profile, the browser stores one encrypted `userCrypto` blob in `localStorage`, and authenticated browser code fetches the current session-derived wrapping key from `/api/user_crypto_session_key`.
 - User metadata lives at `L2/<username>/user.yaml`.
 - `L2/<username>/meta/password.json` stores a server-sealed SCRAM verifier envelope, not a self-sufficient plaintext verifier.

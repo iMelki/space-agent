@@ -692,7 +692,9 @@ export function createAuthService(options = {}) {
       });
     }
 
-    await ensureUserIndexLoaded(usernameHint);
+    await ensureUserIndexLoaded(usernameHint, {
+      force: true
+    });
 
     const userIndex = getUserIndex();
     const sessionVerifier = createSessionVerifier(sessionToken, authKeys);

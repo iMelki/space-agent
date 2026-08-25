@@ -2606,6 +2606,7 @@ const model = {
       this.reportError("persisting overlay config", error, {
         preserveStatus: true
       });
+      throw error;
     }
   },
 
