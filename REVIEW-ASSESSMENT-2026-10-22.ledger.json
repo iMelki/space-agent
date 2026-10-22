@@ -1,0 +1,431 @@
+{
+  "schemaVersion": "fleet-release-coverage.v1",
+  "runId": "fleet-plan-ledger-20261023-space-agent",
+  "generatedAt": "2026-10-22T22:00:42.619Z",
+  "mode": "read-only-assessment",
+  "sources": [
+    {
+      "kind": "documentary-deliverable",
+      "planAndLedgerSpecified": true,
+      "firstUsableAndNextReleases": 3,
+      "sourceManifest": "REVIEW-ASSESSMENT-2026-10-22.sources.json",
+      "sourceManifestSha256": "397547d918e460ca970a36672f5874cbe13597fb5d6a5fa1e5ac93bd4429007e"
+    },
+    {
+      "kind": "canonical-schema",
+      "reference": "fleet-release-coverage.v1"
+    },
+    {
+      "kind": "repository-metadata",
+      "repo": "iMelki/space-agent",
+      "archived": false,
+      "visibility": "public",
+      "defaultBranch": "main",
+      "fork": true,
+      "observedAt": "2026-10-22T22:02:57.620Z"
+    }
+  ],
+  "summary": {
+    "connectedOwnedRemoteCount": 1,
+    "metadataInventoried": 1,
+    "detailedAssessmentsComplete": 0,
+    "localCurrentStateVerified": 0
+  },
+  "repos": [
+    {
+      "repo": "iMelki/space-agent",
+      "url": "https://github.com/iMelki/space-agent",
+      "ownership": "owned-verified",
+      "ownershipEvidence": "Existing local origin identity matches the exact owned repository; no upstream mutation.",
+      "inventoryStatus": "partially-assessed",
+      "archived": false,
+      "visibility": "public",
+      "defaultBranch": "main",
+      "forkStatus": "owned fork; existing upstream preserved",
+      "activityStatus": "historical assessment; current broad activity unmeasured",
+      "sourceScope": "Complete actionable documentary plan/ledger for recovered evidence, selected known item references and three ordered release milestones; comprehensive historical audit remains partial.",
+      "historicalCheckoutAliases": [],
+      "owner": null,
+      "ownerFreshness": "Current acceptance unresolved; existing roles do not imply accepted custody.",
+      "remote": {
+        "status": "partial",
+        "branches": null,
+        "pullRequests": null,
+        "exactHeads": {
+          "historicalSource": "656dfe6e24b427436c41299bacc199a013e6f808"
+        },
+        "observedAt": "2026-10-22T22:00:42.619Z",
+        "limitations": [
+          "Historical source plus selected publication readbacks only; no fresh census."
+        ]
+      },
+      "local": {
+        "status": "unknown",
+        "reason": "Original source/worktree owner release and complete current dirty/stash inventory not established.",
+        "worktrees": null,
+        "dirty": null,
+        "unpublished": null,
+        "stashes": null
+      },
+      "baseline": {
+        "status": "historical",
+        "source": "656dfe6e24b427436c41299bacc199a013e6f808",
+        "runtime": null,
+        "useProof": "Fork dev656dfe6e24b427436c41299bacc199a013e6f808 and nine-file patch assessed historically. External decisions are parked/adoption-pending; no usable installed release is established.",
+        "limitations": [
+          "Historical useful evidence does not establish current selected installation."
+        ]
+      },
+      "assessment": {
+        "status": "partial",
+        "tracker": "https://github.com/iMelki/space-agent",
+        "nextStep": "Publish this completed planning/ledger deliverable through the existing owner, then recover only explicit missing audit evidence.",
+        "priority": "Now: plan/ledger publication; then qualified baseline before later releases.",
+        "releaseSlice": "First milestone is an explicit keep/park/adopt decision. If parked, finish with preserved reference state; if adopted, qualify one browser-first owned fixture for auth-refresh and save-failure handling.",
+        "checks": [
+          "Use the existing external owner/lane and recover exact nine-file manifest; no automatic board enrollment.",
+          "If adoption is chosen, scope fixture-only auth failure, user refresh hint and save-error propagation without credentials or live providers.",
+          "Record source/build/browser identity and finite owned fixture cleanup; server changes need separate authority."
+        ],
+        "rollback": "For park/reference, preserve immutable source and perform no runtime action. For adopted fixture, restore prior reviewed source/build and exact owned fixture data only.",
+        "owner": null,
+        "consumer": "The operator deciding whether the existing browser-first fork remains parked/reference-only or merits one bounded owned fixture.",
+        "limitations": [
+          "Exactnine-file source patch manifest and original detailed semantic rows not recovered.",
+          "Externalparkeddecision is documented; current productcustodian acceptance unknown. Treat explicitgap as planningresult, not missingruntimeproof.",
+          "No fresh disabledtracker/census verification claimed."
+        ],
+        "receipt": "REVIEW-ASSESSMENT-2026-10-22.sources.json"
+      },
+      "evidence": [
+        "REVIEW-ASSESSMENT-2026-10-22.sources.json",
+        "REVIEW-ASSESSMENT-2026-10-22.md"
+      ],
+      "review": {
+        "profile": "integration-fork",
+        "sourceRevision": "656dfe6e24b427436c41299bacc199a013e6f808",
+        "declaredScope": "Complete actionable documentary plan/ledger for recovered evidence, selected known item references and three ordered release milestones; comprehensive historical audit remains partial.",
+        "exclusions": [
+          "No runtime execution, installs, process/service changes or provider calls.",
+          "No fabricated missing item assessments or new census."
+        ],
+        "report": {
+          "status": "draft",
+          "artifact": {
+            "reference": "REVIEW-ASSESSMENT-2026-10-22.md",
+            "sha256": "93fbfc0f13c3f0991f46f4ed5f97cf72efcaef164c402ba05d81177f71cf3297"
+          },
+          "reviewEvidence": "Private preparation; independent source acceptance and actual repository deposit remain separate."
+        },
+        "backlog": {
+          "issues": {
+            "status": "partial",
+            "requestedScope": "Selected historical issue/PR references with recovered semantic dispositions; mixed resource kinds are explicit in their URLs.",
+            "startedAt": "2026-10-22T22:00:42.619Z",
+            "completedAt": "2026-10-22T22:00:42.619Z",
+            "pages": 0,
+            "hasNextPage": null,
+            "totalCount": 0,
+            "artifact": {
+              "reference": "REVIEW-ASSESSMENT-2026-10-22.sources.json",
+              "sha256": "397547d918e460ca970a36672f5874cbe13597fb5d6a5fa1e5ac93bd4429007e"
+            },
+            "items": [],
+            "limitations": [
+              "Derived selected-scope ledger; no new issue/PR census. Missing original rows and current states remain unknown."
+            ]
+          },
+          "openPullRequests": {
+            "status": "partial",
+            "requestedScope": "Only independently refreshed selected open PRs; not whole repository.",
+            "startedAt": "2026-10-22T22:00:42.619Z",
+            "completedAt": "2026-10-22T22:00:42.619Z",
+            "pages": 0,
+            "hasNextPage": null,
+            "totalCount": 0,
+            "artifact": {
+              "reference": "REVIEW-ASSESSMENT-2026-10-22.sources.json",
+              "sha256": "397547d918e460ca970a36672f5874cbe13597fb5d6a5fa1e5ac93bd4429007e"
+            },
+            "items": [],
+            "limitations": [
+              "Derived selected-scope ledger; no new issue/PR census. Missing original rows and current states remain unknown."
+            ]
+          },
+          "releasePlanItems": {
+            "status": "complete",
+            "requestedScope": "Exactly the three proposed ordered milestone groups specified in this plan; not upstream release inventory.",
+            "startedAt": "2026-10-22T22:00:42.619Z",
+            "completedAt": "2026-10-22T22:00:42.619Z",
+            "pages": 1,
+            "hasNextPage": false,
+            "totalCount": 3,
+            "artifact": {
+              "reference": "REVIEW-ASSESSMENT-2026-10-22.sources.json",
+              "sha256": "397547d918e460ca970a36672f5874cbe13597fb5d6a5fa1e5ac93bd4429007e"
+            },
+            "items": [
+              {
+                "id": "qualified-baseline",
+                "url": "REVIEW-ASSESSMENT-2026-10-22.md",
+                "observedState": "proposed ordered release milestone; not executed",
+                "observedHead": null,
+                "observedBase": null,
+                "sourceBranch": null,
+                "targetBranch": null,
+                "disposition": "deferred",
+                "reason": "First milestone is an explicit keep/park/adopt decision. If parked, finish with preserved reference state; if adopted, qualify one browser-first owned fixture for auth-refresh and save-failure handling.",
+                "evidence": [
+                  "REVIEW-ASSESSMENT-2026-10-22.md"
+                ],
+                "canonicalLane": "https://github.com/iMelki/space-agent",
+                "dependencies": [
+                  "Existing source owner and reviewed candidate",
+                  "Explicit current baseline/scope decision",
+                  "Qualified finite checks and preserved rollback"
+                ],
+                "owner": {
+                  "status": "unresolved",
+                  "identity": null,
+                  "evidenceOrGap": "Existing repository/source/release owner retains custody; current explicit acceptance has not been recovered.",
+                  "nextAction": "Existing owner acknowledges the exact selected source, scope and next milestone or records deliberate deferral."
+                },
+                "nextAction": "Use the existing external owner/lane and recover exact nine-file manifest; no automatic board enrollment.",
+                "acceptanceCriteria": [
+                  "Use the existing external owner/lane and recover exact nine-file manifest; no automatic board enrollment.",
+                  "If adoption is chosen, scope fixture-only auth failure, user refresh hint and save-error propagation without credentials or live providers.",
+                  "Record source/build/browser identity and finite owned fixture cleanup; server changes need separate authority.",
+                  "For park/reference, preserve immutable source and perform no runtime action. For adopted fixture, restore prior reviewed source/build and exact owned fixture data only."
+                ],
+                "reentryTrigger": "Existing owner accepts scope and execution route."
+              },
+              {
+                "id": "next-release-1",
+                "url": "REVIEW-ASSESSMENT-2026-10-22.md",
+                "observedState": "proposed ordered release milestone; not executed",
+                "observedHead": null,
+                "observedBase": null,
+                "sourceBranch": null,
+                "targetBranch": null,
+                "disposition": "deferred",
+                "reason": "Only if adopted, compare and qualify one relevant upstream change against the preserved patch.",
+                "evidence": [
+                  "REVIEW-ASSESSMENT-2026-10-22.md"
+                ],
+                "canonicalLane": "https://github.com/iMelki/space-agent",
+                "dependencies": [
+                  "qualified-baseline"
+                ],
+                "owner": {
+                  "status": "unresolved",
+                  "identity": null,
+                  "evidenceOrGap": "Existing repository/source/release owner retains custody; current explicit acceptance has not been recovered.",
+                  "nextAction": "Existing owner acknowledges the exact selected source, scope and next milestone or records deliberate deferral."
+                },
+                "nextAction": "No general upstream upgrade; browser-first behavior, explicit regression criteria and reference-safe rollback.",
+                "acceptanceCriteria": [
+                  "No general upstream upgrade; browser-first behavior, explicit regression criteria and reference-safe rollback.",
+                  "Use the same accepted artifact/owner, declare positive/failure/regression checks for this added scope, and preserve rollback.",
+                  "For park/reference, preserve immutable source and perform no runtime action. For adopted fixture, restore prior reviewed source/build and exact owned fixture data only."
+                ],
+                "reentryTrigger": "Prior milestone is accepted and operator selects this added scope."
+              },
+              {
+                "id": "next-release-2",
+                "url": "REVIEW-ASSESSMENT-2026-10-22.md",
+                "observedState": "proposed ordered release milestone; not executed",
+                "observedHead": null,
+                "observedBase": null,
+                "sourceBranch": null,
+                "targetBranch": null,
+                "disposition": "deferred",
+                "reason": "Only after the bounded fixture is accepted, qualify one operator-selected consumer flow.",
+                "evidence": [
+                  "REVIEW-ASSESSMENT-2026-10-22.md"
+                ],
+                "canonicalLane": "https://github.com/iMelki/space-agent",
+                "dependencies": [
+                  "next-release-1"
+                ],
+                "owner": {
+                  "status": "unresolved",
+                  "identity": null,
+                  "evidenceOrGap": "Existing repository/source/release owner retains custody; current explicit acceptance has not been recovered.",
+                  "nextAction": "Existing owner acknowledges the exact selected source, scope and next milestone or records deliberate deferral."
+                },
+                "nextAction": "Accepted product/runtime owner, controlled data and rollback; no autonomous product expansion or activation by inference.",
+                "acceptanceCriteria": [
+                  "Accepted product/runtime owner, controlled data and rollback; no autonomous product expansion or activation by inference.",
+                  "Require a named accepted consumer and meaningful useful-outcome evidence before extending the prior release.",
+                  "For park/reference, preserve immutable source and perform no runtime action. For adopted fixture, restore prior reviewed source/build and exact owned fixture data only."
+                ],
+                "reentryTrigger": "Prior milestone is accepted and operator selects this added scope."
+              }
+            ],
+            "limitations": []
+          }
+        },
+        "censusReconciliationEvidence": "REVIEW-ASSESSMENT-2026-10-22.sources.json preserves historical inventory 0 and explicit unrecovered source/row gaps; selected rows are not represented as that full census.",
+        "findings": [
+          "Exactnine-file source patch manifest and original detailed semantic rows not recovered.",
+          "Externalparkeddecision is documented; current productcustodian acceptance unknown. Treat explicitgap as planningresult, not missingruntimeproof.",
+          "No fresh disabledtracker/census verification claimed."
+        ],
+        "nextActions": [
+          {
+            "rank": 1,
+            "lane": "now",
+            "tracker": "https://github.com/iMelki/space-agent",
+            "action": "First milestone is an explicit keep/park/adopt decision. If parked, finish with preserved reference state; if adopted, qualify one browser-first owned fixture for auth-refresh and save-failure handling.",
+            "rankingRationale": "Establish the smallest useful qualified baseline before adding consumers.",
+            "owner": {
+              "status": "unresolved",
+              "identity": null,
+              "evidenceOrGap": "Existing repository/source/release owner retains custody; current explicit acceptance has not been recovered.",
+              "nextAction": "Existing owner acknowledges the exact selected source, scope and next milestone or records deliberate deferral."
+            },
+            "dependencies": [
+              "Existing source owner and reviewed candidate",
+              "Explicit current baseline/scope decision",
+              "Qualified finite checks and preserved rollback"
+            ],
+            "workInProgress": [
+              "Existing source/publisher custody remains; no competing writer."
+            ],
+            "expectedEvidence": "Use the existing external owner/lane and recover exact nine-file manifest; no automatic board enrollment. If adoption is chosen, scope fixture-only auth failure, user refresh hint and save-error propagation without credentials or live providers. Record source/build/browser identity and finite owned fixture cleanup; server changes need separate authority.",
+            "acceptanceCriteria": [
+              "Use the existing external owner/lane and recover exact nine-file manifest; no automatic board enrollment.",
+              "If adoption is chosen, scope fixture-only auth failure, user refresh hint and save-error propagation without credentials or live providers.",
+              "Record source/build/browser identity and finite owned fixture cleanup; server changes need separate authority.",
+              "For park/reference, preserve immutable source and perform no runtime action. For adopted fixture, restore prior reviewed source/build and exact owned fixture data only."
+            ],
+            "gate": "Plan only; existing owner, current exact candidate, normal checks/reviews and separate runtime authority precede execution."
+          },
+          {
+            "rank": 2,
+            "lane": "next",
+            "tracker": "https://github.com/iMelki/space-agent",
+            "action": "Only if adopted, compare and qualify one relevant upstream change against the preserved patch.",
+            "rankingRationale": "Build on the accepted prior scope and its dependencies.",
+            "owner": {
+              "status": "unresolved",
+              "identity": null,
+              "evidenceOrGap": "Existing repository/source/release owner retains custody; current explicit acceptance has not been recovered.",
+              "nextAction": "Existing owner acknowledges the exact selected source, scope and next milestone or records deliberate deferral."
+            },
+            "dependencies": [
+              "qualified-baseline"
+            ],
+            "workInProgress": [
+              "Existing source/publisher custody remains; no competing writer."
+            ],
+            "expectedEvidence": "No general upstream upgrade; browser-first behavior, explicit regression criteria and reference-safe rollback. Use the same accepted artifact/owner, declare positive/failure/regression checks for this added scope, and preserve rollback.",
+            "acceptanceCriteria": [
+              "No general upstream upgrade; browser-first behavior, explicit regression criteria and reference-safe rollback.",
+              "Use the same accepted artifact/owner, declare positive/failure/regression checks for this added scope, and preserve rollback.",
+              "For park/reference, preserve immutable source and perform no runtime action. For adopted fixture, restore prior reviewed source/build and exact owned fixture data only."
+            ],
+            "gate": "Plan only; existing owner, current exact candidate, normal checks/reviews and separate runtime authority precede execution."
+          },
+          {
+            "rank": 3,
+            "lane": "later",
+            "tracker": "https://github.com/iMelki/space-agent",
+            "action": "Only after the bounded fixture is accepted, qualify one operator-selected consumer flow.",
+            "rankingRationale": "Build on the accepted prior scope and its dependencies.",
+            "owner": {
+              "status": "unresolved",
+              "identity": null,
+              "evidenceOrGap": "Existing repository/source/release owner retains custody; current explicit acceptance has not been recovered.",
+              "nextAction": "Existing owner acknowledges the exact selected source, scope and next milestone or records deliberate deferral."
+            },
+            "dependencies": [
+              "next-release-1"
+            ],
+            "workInProgress": [
+              "Existing source/publisher custody remains; no competing writer."
+            ],
+            "expectedEvidence": "Accepted product/runtime owner, controlled data and rollback; no autonomous product expansion or activation by inference. Require a named accepted consumer and meaningful useful-outcome evidence before extending the prior release.",
+            "acceptanceCriteria": [
+              "Accepted product/runtime owner, controlled data and rollback; no autonomous product expansion or activation by inference.",
+              "Require a named accepted consumer and meaningful useful-outcome evidence before extending the prior release.",
+              "For park/reference, preserve immutable source and perform no runtime action. For adopted fixture, restore prior reviewed source/build and exact owned fixture data only."
+            ],
+            "gate": "Plan only; existing owner, current exact candidate, normal checks/reviews and separate runtime authority precede execution."
+          }
+        ],
+        "discovery": {
+          "status": "draft",
+          "pointerPath": "REVIEW-HANDOFF.md",
+          "inspectedRevision": "435ef5c3487a00b679ced25d222c68ad78e61728",
+          "reportReference": "REVIEW-ASSESSMENT-2026-10-22.md",
+          "resolutionEvidence": "Private patch links the existing handoff to this plan, ledger and source manifest; actual application not yet performed."
+        },
+        "centralEvidence": {
+          "status": "pending",
+          "existingLedgerReference": "REVIEW-ASSESSMENT-2026-10-22.ledger.json",
+          "existingDashboardReference": "No public dashboard claimed; restricted coordination evidence remains with the existing custodian.",
+          "producer": "codex-chief",
+          "runId": "fleet-plan-ledger-20261023-lane-b",
+          "sourceRevision": "656dfe6e24b427436c41299bacc199a013e6f808",
+          "report": {
+            "reference": "REVIEW-ASSESSMENT-2026-10-22.md",
+            "sha256": "93fbfc0f13c3f0991f46f4ed5f97cf72efcaef164c402ba05d81177f71cf3297"
+          },
+          "observedFrom": "2026-10-22T22:00:42.619Z",
+          "observedTo": "2026-10-22T22:00:42.619Z",
+          "generatedAt": "2026-10-22T22:00:42.619Z",
+          "readbackEvidence": "Private prepared bytes validated; actual repository/branch deposit remains pending publisher.",
+          "consumerPickupEvidence": "Unverified; retain existing owner and publisher."
+        },
+        "freshness": {
+          "status": "unknown",
+          "validUntil": "2026-10-22T22:00:42.619Z",
+          "invalidateOn": [
+            "Source head, destination bytes, tracker state, owner acceptance or relevant dependency changes."
+          ],
+          "lastReconciledAt": "2026-10-22T22:00:42.619Z",
+          "nonAtomicLimitations": [
+            "Historical assessment scope and source pins; this pass did not refresh the full repository census or selected runtime."
+          ]
+        },
+        "completion": {
+          "assessment": "partial",
+          "remediation": "unknown",
+          "release": "unknown",
+          "installedRuntime": "unknown"
+        }
+      }
+    }
+  ],
+  "exceptions": [
+    {
+      "identity": "iMelki/space-agent:evidence-gap-1",
+      "status": "unresolved-evidence",
+      "reason": "Exactnine-file source patch manifest and original detailed semantic rows not recovered.",
+      "nextStep": "Existing assessment custodian recovers exact original evidence; preserve unknown and do not repeat completed work."
+    },
+    {
+      "identity": "iMelki/space-agent:evidence-gap-2",
+      "status": "unresolved-evidence",
+      "reason": "Externalparkeddecision is documented; current productcustodian acceptance unknown. Treat explicitgap as planningresult, not missingruntimeproof.",
+      "nextStep": "Existing assessment custodian recovers exact original evidence; preserve unknown and do not repeat completed work."
+    },
+    {
+      "identity": "iMelki/space-agent:evidence-gap-3",
+      "status": "unresolved-evidence",
+      "reason": "No fresh disabledtracker/census verification claimed.",
+      "nextStep": "Existing assessment custodian recovers exact original evidence; preserve unknown and do not repeat completed work."
+    }
+  ],
+  "localOnly": {
+    "status": "prepared-not-applied",
+    "count": 3,
+    "identities": [
+      "REVIEW-ASSESSMENT-2026-10-22.md",
+      "REVIEW-ASSESSMENT-2026-10-22.ledger.json",
+      "REVIEW-ASSESSMENT-2026-10-22.sources.json"
+    ],
+    "nextStep": "Existing publisher applies after exact source/destination custody and branch mapping; no new writer."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "repository": "iMelki/space-agent",
+  "generatedAt": "2026-10-22T22:00:42.619Z",
+  "kind": "Historical assessment provenance and explicit source gaps; derived read-only documentation",
+  "sourceRevision": "656dfe6e24b427436c41299bacc199a013e6f808",
+  "historicalRecordInventory": 0,
+  "historicalCoverage": "Repository trackerdisabled/zeroitems; historicalninefiledevpatch assessed. ExternalAS119body/fourcomments andOps69/73/172histories14/26/16 plusOps19/60historical3/1comments retained. External decisions support parked/adoptionpending, not activation.",
+  "scopeLimit": "This is not a fresh whole-repository census. Missing original records are not reconstructed as assessed.",
+  "knownSources": [],
+  "gaps": [
+    "Exactnine-file source patch manifest and original detailed semantic rows not recovered.",
+    "Externalparkeddecision is documented; current productcustodian acceptance unknown. Treat explicitgap as planningresult, not missingruntimeproof.",
+    "No fresh disabledtracker/census verification claimed."
+  ],
+  "retainedAssessmentReceiptSha256": "556b82641b591eab4a333f2911d5e900ce6b0b190f683b2a8ed9e385ecf6827b",
+  "publicationLimit": "Raw conversations, machine paths and private source bundles are excluded. This manifest supplies hashes and bounded claims only."
+}
