@@ -113,7 +113,7 @@
           "status": "draft",
           "artifact": {
             "reference": "REVIEW-ASSESSMENT-2026-10-22.md",
-            "sha256": "93fbfc0f13c3f0991f46f4ed5f97cf72efcaef164c402ba05d81177f71cf3297"
+            "sha256": "e7917c4ad61d8c3c0a5040240bc7dcfd395a30242f27fa2300b15f05f23ea69d"
           },
           "reviewEvidence": "Private preparation; independent source acceptance and actual repository deposit remain separate."
         },
@@ -161,8 +161,8 @@
             "hasNextPage": false,
             "totalCount": 3,
             "artifact": {
-              "reference": "REVIEW-ASSESSMENT-2026-10-22.sources.json",
-              "sha256": "397547d918e460ca970a36672f5874cbe13597fb5d6a5fa1e5ac93bd4429007e"
+              "reference": "REVIEW-ASSESSMENT-2026-10-22.md",
+              "sha256": "e7917c4ad61d8c3c0a5040240bc7dcfd395a30242f27fa2300b15f05f23ea69d"
             },
             "items": [
               {
@@ -195,6 +195,8 @@
                   "Use the existing external owner/lane and recover exact nine-file manifest; no automatic board enrollment.",
                   "If adoption is chosen, scope fixture-only auth failure, user refresh hint and save-error propagation without credentials or live providers.",
                   "Record source/build/browser identity and finite owned fixture cleanup; server changes need separate authority.",
+                  "Bind the exact source/build artifact and checksum. Before any installation, identify the existing selected runtime and approved finite execution route. Source tests alone do not establish installed acceptance.",
+                  "Verify a meaningful positive case, failure/refusal case and regression of the previous milestone. Record actual outcome and unexecuted checks honestly.",
                   "For park/reference, preserve immutable source and perform no runtime action. For adopted fixture, restore prior reviewed source/build and exact owned fixture data only."
                 ],
                 "reentryTrigger": "Existing owner accepts scope and execution route."
@@ -226,6 +228,8 @@
                 "acceptanceCriteria": [
                   "No general upstream upgrade; browser-first behavior, explicit regression criteria and reference-safe rollback.",
                   "Use the same accepted artifact/owner, declare positive/failure/regression checks for this added scope, and preserve rollback.",
+                  "Bind the exact source/build artifact and checksum. Before any installation, identify the existing selected runtime and approved finite execution route. Source tests alone do not establish installed acceptance.",
+                  "Verify a meaningful positive case, failure/refusal case and regression of the previous milestone. Record actual outcome and unexecuted checks honestly.",
                   "For park/reference, preserve immutable source and perform no runtime action. For adopted fixture, restore prior reviewed source/build and exact owned fixture data only."
                 ],
                 "reentryTrigger": "Prior milestone is accepted and operator selects this added scope."
@@ -257,6 +261,8 @@
                 "acceptanceCriteria": [
                   "Accepted product/runtime owner, controlled data and rollback; no autonomous product expansion or activation by inference.",
                   "Require a named accepted consumer and meaningful useful-outcome evidence before extending the prior release.",
+                  "Bind the exact source/build artifact and checksum. Before any installation, identify the existing selected runtime and approved finite execution route. Source tests alone do not establish installed acceptance.",
+                  "Verify a meaningful positive case, failure/refusal case and regression of the previous milestone. Record actual outcome and unexecuted checks honestly.",
                   "For park/reference, preserve immutable source and perform no runtime action. For adopted fixture, restore prior reviewed source/build and exact owned fixture data only."
                 ],
                 "reentryTrigger": "Prior milestone is accepted and operator selects this added scope."
@@ -292,11 +298,13 @@
             "workInProgress": [
               "Existing source/publisher custody remains; no competing writer."
             ],
-            "expectedEvidence": "Use the existing external owner/lane and recover exact nine-file manifest; no automatic board enrollment. If adoption is chosen, scope fixture-only auth failure, user refresh hint and save-error propagation without credentials or live providers. Record source/build/browser identity and finite owned fixture cleanup; server changes need separate authority.",
+            "expectedEvidence": "Use the existing external owner/lane and recover exact nine-file manifest; no automatic board enrollment. If adoption is chosen, scope fixture-only auth failure, user refresh hint and save-error propagation without credentials or live providers. Record source/build/browser identity and finite owned fixture cleanup; server changes need separate authority. Bind the exact source/build artifact and checksum. Before any installation, identify the existing selected runtime and approved finite execution route. Source tests alone do not establish installed acceptance. Verify a meaningful positive case, failure/refusal case and regression of the previous milestone. Record actual outcome and unexecuted checks honestly.",
             "acceptanceCriteria": [
               "Use the existing external owner/lane and recover exact nine-file manifest; no automatic board enrollment.",
               "If adoption is chosen, scope fixture-only auth failure, user refresh hint and save-error propagation without credentials or live providers.",
               "Record source/build/browser identity and finite owned fixture cleanup; server changes need separate authority.",
+              "Bind the exact source/build artifact and checksum. Before any installation, identify the existing selected runtime and approved finite execution route. Source tests alone do not establish installed acceptance.",
+              "Verify a meaningful positive case, failure/refusal case and regression of the previous milestone. Record actual outcome and unexecuted checks honestly.",
               "For park/reference, preserve immutable source and perform no runtime action. For adopted fixture, restore prior reviewed source/build and exact owned fixture data only."
             ],
             "gate": "Plan only; existing owner, current exact candidate, normal checks/reviews and separate runtime authority precede execution."
@@ -319,10 +327,12 @@
             "workInProgress": [
               "Existing source/publisher custody remains; no competing writer."
             ],
-            "expectedEvidence": "No general upstream upgrade; browser-first behavior, explicit regression criteria and reference-safe rollback. Use the same accepted artifact/owner, declare positive/failure/regression checks for this added scope, and preserve rollback.",
+            "expectedEvidence": "No general upstream upgrade; browser-first behavior, explicit regression criteria and reference-safe rollback. Use the same accepted artifact/owner, declare positive/failure/regression checks for this added scope, and preserve rollback. Bind the exact source/build artifact and checksum. Before any installation, identify the existing selected runtime and approved finite execution route. Source tests alone do not establish installed acceptance. Verify a meaningful positive case, failure/refusal case and regression of the previous milestone. Record actual outcome and unexecuted checks honestly.",
             "acceptanceCriteria": [
               "No general upstream upgrade; browser-first behavior, explicit regression criteria and reference-safe rollback.",
               "Use the same accepted artifact/owner, declare positive/failure/regression checks for this added scope, and preserve rollback.",
+              "Bind the exact source/build artifact and checksum. Before any installation, identify the existing selected runtime and approved finite execution route. Source tests alone do not establish installed acceptance.",
+              "Verify a meaningful positive case, failure/refusal case and regression of the previous milestone. Record actual outcome and unexecuted checks honestly.",
               "For park/reference, preserve immutable source and perform no runtime action. For adopted fixture, restore prior reviewed source/build and exact owned fixture data only."
             ],
             "gate": "Plan only; existing owner, current exact candidate, normal checks/reviews and separate runtime authority precede execution."
@@ -345,10 +355,12 @@
             "workInProgress": [
               "Existing source/publisher custody remains; no competing writer."
             ],
-            "expectedEvidence": "Accepted product/runtime owner, controlled data and rollback; no autonomous product expansion or activation by inference. Require a named accepted consumer and meaningful useful-outcome evidence before extending the prior release.",
+            "expectedEvidence": "Accepted product/runtime owner, controlled data and rollback; no autonomous product expansion or activation by inference. Require a named accepted consumer and meaningful useful-outcome evidence before extending the prior release. Bind the exact source/build artifact and checksum. Before any installation, identify the existing selected runtime and approved finite execution route. Source tests alone do not establish installed acceptance. Verify a meaningful positive case, failure/refusal case and regression of the previous milestone. Record actual outcome and unexecuted checks honestly.",
             "acceptanceCriteria": [
               "Accepted product/runtime owner, controlled data and rollback; no autonomous product expansion or activation by inference.",
               "Require a named accepted consumer and meaningful useful-outcome evidence before extending the prior release.",
+              "Bind the exact source/build artifact and checksum. Before any installation, identify the existing selected runtime and approved finite execution route. Source tests alone do not establish installed acceptance.",
+              "Verify a meaningful positive case, failure/refusal case and regression of the previous milestone. Record actual outcome and unexecuted checks honestly.",
               "For park/reference, preserve immutable source and perform no runtime action. For adopted fixture, restore prior reviewed source/build and exact owned fixture data only."
             ],
             "gate": "Plan only; existing owner, current exact candidate, normal checks/reviews and separate runtime authority precede execution."
@@ -370,7 +382,7 @@
           "sourceRevision": "656dfe6e24b427436c41299bacc199a013e6f808",
           "report": {
             "reference": "REVIEW-ASSESSMENT-2026-10-22.md",
-            "sha256": "93fbfc0f13c3f0991f46f4ed5f97cf72efcaef164c402ba05d81177f71cf3297"
+            "sha256": "e7917c4ad61d8c3c0a5040240bc7dcfd395a30242f27fa2300b15f05f23ea69d"
           },
           "observedFrom": "2026-10-22T22:00:42.619Z",
           "observedTo": "2026-10-22T22:00:42.619Z",
@@ -409,7 +421,7 @@
       "identity": "iMelki/space-agent:evidence-gap-2",
       "status": "unresolved-evidence",
       "reason": "Externalparkeddecision is documented; current productcustodian acceptance unknown. Treat explicitgap as planningresult, not missingruntimeproof.",
-      "nextStep": "Existing assessment custodian recovers exact original evidence; preserve unknown and do not repeat completed work."
+      "nextStep": "Existing product/release custodian acknowledges the keep/park/adopt decision and conditional scope, or retains the explicit unresolved acceptance gap. This is future release acceptance; do not activate the product or repeat historical source recovery to obtain it."
     },
     {
       "identity": "iMelki/space-agent:evidence-gap-3",

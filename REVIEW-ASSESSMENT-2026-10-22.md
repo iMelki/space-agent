@@ -70,7 +70,7 @@ Inspected historical source: `656dfe6e24b427436c41299bacc199a013e6f808`. Source 
 ## Audit evidence requests and current dispositions
 
 - **Evidence request 1:** Exactnine-file source patch manifest and original detailed semantic rows not recovered. Existing assessment custodian must recover the original receipt or explicitly retain unknown; do not repeat a completed census.
-- **Evidence request 2:** Externalparkeddecision is documented; current productcustodian acceptance unknown. Treat explicitgap as planningresult, not missingruntimeproof. Existing assessment custodian must recover the original receipt or explicitly retain unknown; do not repeat a completed census.
+- **Release acceptance action 2:** Existing product/release custodian acknowledges the keep/park/adopt decision and conditional scope, or retains the explicit unresolved acceptance gap. This is future release acceptance; do not activate the product or repeat historical source recovery to obtain it.
 - **Evidence request 3:** No fresh disabledtracker/census verification claimed. Existing assessment custodian must recover the original receipt or explicitly retain unknown; do not repeat a completed census.
 
 Known item IDs and semantic dispositions are in [the ledger](REVIEW-ASSESSMENT-2026-10-22.ledger.json). Exact source provenance and limitations are in [the source manifest](REVIEW-ASSESSMENT-2026-10-22.sources.json). Missing rows have not been fabricated or counted complete.
