@@ -91,3 +91,7 @@ Default section order:
 - `/packaging/AGENTS.md` - packaging/ contains native app hosts and the packaging surface around them.
 - `/server/AGENTS.md` - server/ is the thin local infrastructure runtime.
 - `/tests/AGENTS.md` - tests/ owns repo-level verification harnesses and evaluation fixtures
+
+## Review planning
+
+Read [the repository review handoff](REVIEW-HANDOFF.md) for the dated plan, ledger and remaining evidence gaps. Planning does not authorize runtime or source changes.
