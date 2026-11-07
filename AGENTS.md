@@ -92,6 +92,11 @@ Default section order:
 - `/server/AGENTS.md` - server/ is the thin local infrastructure runtime.
 - `/tests/AGENTS.md` - tests/ owns repo-level verification harnesses and evaluation fixtures
 
+## Code review automation
+
+- `.coderabbit.yaml` is the repository's CodeRabbit configuration. It overrides the organization UI settings; organization global overrides still win.
+- CodeRabbit reviews every PR automatically, with no label gate, including drafts, when the PR targets `main` or `dev`.
+
 ## Review planning
 
 Read [the repository review handoff](REVIEW-HANDOFF.md) for the dated plan, ledger and remaining evidence gaps. Planning does not authorize runtime or source changes.
